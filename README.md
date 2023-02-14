@@ -1,1 +1,1 @@
-# feb_private_bot
+# telega_private_bot
