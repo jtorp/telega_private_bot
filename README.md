@@ -33,13 +33,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](https://example.com) <br>
+[![WIP][product-screenshot]](https://example.com) <br>
  Telegram bot powered by the ChatGPT API, designed to simplify the process of creating  blog content and saving time. Effortlessly generate engaging blog posts by simply providing a few keywords. Say goodbye to writer's block and hello to content.<br>
 ## Built With
 [![Telegram]][Telegram-url]
 [![Node.js][Nodejs.com]][Nodejs-url]
-[![Notion-url]]
-[![OpenAI-url]]
+[![notion][notion]]
+[![openai][openai]]
+
 <!-- ROADMAP -->
 ## Features
 - [x] OpenAI API enables automatic blog post generation. It can craft well-written, topic-specific content based on provided keywords.  
@@ -55,10 +56,10 @@
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: images/WIP.gif
+[notion]: images/notion-48.png
+[openai]: images/openai.png
+
 [Nodejs.com]:https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [Nodejs-url]: https://nodejs.org
-
 [Telegram]:https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
 [Telegram-url]: https://telegram.org/
-[Notion-url]: https://notion.so/
-[OpenAI-url]: https://platform.openai.com/docs/introduction
