@@ -25,7 +25,7 @@
 <br />
 <div align="left">
 <h1>Blog post generator</h1>
-<p> <strong>content creation and organization </strong> </p>
+Content creation and organisation 
 </div>
 
 
@@ -41,12 +41,18 @@
 [![notion]][notion-url]
 [![openai]][openai-url]
 
-<!-- ROADMAP -->
 ## Features
 - [x] OpenAI API enables automatic blog post generation. It can craft well-written, topic-specific content based on provided keywords.  
   - [ ] Specify tone ( casual, professional, witty...etc.) 
 - [x] Notion API automates the process of creating a new Notion page for your blog post wit h content generated from bot
 
+## Contributions
+
+Feel free to submit pull requests, create issues or spread the word.
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &copy; [Jtorp](https://julialab.net/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
