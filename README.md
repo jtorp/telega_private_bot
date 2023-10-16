@@ -42,9 +42,9 @@ Content creation and organisation
 [![openai]][openai-url]
 
 ## Features
-- [x] OpenAI API enables automatic blog post generation. It can craft well-written, topic-specific content based on provided keywords.  
+- [x] Automatic topic-specific content generation, based on provided keywords.  
   - [ ] Specify tone ( casual, professional, witty...etc.) 
-- [x] Notion API automates the process of creating a new Notion page for your blog post wit h content generated from bot
+- [x] Generated conten is automativally seved to a newly created Notion page
 
 ## Contributions
 
