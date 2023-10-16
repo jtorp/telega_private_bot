@@ -25,9 +25,7 @@
 <br />
 <div align="center">
 <h3 align="center">Blog post generator</h3>
-<p  align="center"> content creation and organization </p>
-   Telegram bot powered by the ChatGPT API, designed to simplify the process of creating  blog content and saving time. Effortlessly generate engaging blog posts by simply providing a few keywords. Say goodbye to writer's block and hello to content.
-
+<p  align="center"> <strong>content creation and organization </strong> </p>
 </div>
 
 
@@ -35,7 +33,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://example.com) <br>
+ Telegram bot powered by the ChatGPT API, designed to simplify the process of creating  blog content and saving time. Effortlessly generate engaging blog posts by simply providing a few keywords. Say goodbye to writer's block and hello to content.<br>
 ## Built With
 [![Telegram]][Telegram-url]
 [![Node.js][Nodejs.com]][Nodejs-url]
