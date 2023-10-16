@@ -38,8 +38,8 @@
 ## Built With
 [![Telegram]][Telegram-url]
 [![Node.js][Nodejs.com]][Nodejs-url]
-[![notion] [notion-url]]
-[![openai] [openai-url]]
+[![notion]][notion-url]
+[![openai]][openai-url]
 
 <!-- ROADMAP -->
 ## Features
