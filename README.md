@@ -52,7 +52,8 @@ Feel free to submit pull requests, create issues or spread the word.
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &copy; [Jtorp](https://julialab.net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
