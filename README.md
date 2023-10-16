@@ -23,9 +23,9 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-<h3 align="center">Blog post generator</h3>
-<p  align="center"> <strong>content creation and organization </strong> </p>
+<div align="left">
+<h1>Blog post generator</h1>
+<p> <strong>content creation and organization </strong> </p>
 </div>
 
 
@@ -38,8 +38,8 @@
 ## Built With
 [![Telegram]][Telegram-url]
 [![Node.js][Nodejs.com]][Nodejs-url]
-[![notion][notion]]
-[![openai][openai]]
+[![notion] [notion-url]]
+[![openai] [openai-url]]
 
 <!-- ROADMAP -->
 ## Features
@@ -49,9 +49,6 @@
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -63,3 +60,5 @@
 [Nodejs-url]: https://nodejs.org
 [Telegram]:https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
 [Telegram-url]: https://telegram.org/
+[notion-url]: https://www.notion.so/
+[openai-url]: https://platform.openai.com/docs/introduction
