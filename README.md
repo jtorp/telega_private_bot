@@ -43,7 +43,7 @@ Create seo-optimised meta descriptions, content and headings 3x faster.
 [![openai]][openai-url]
 
 ## Features
-- Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
+- [x] Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
 - [x] Automatic keyword-specific 160 char meta description generation for a blog post
   - [ ] Adaptive tone ( casual, professional, classy, sassy...etc.) 
   - [ ] Spelling and grammar correction
