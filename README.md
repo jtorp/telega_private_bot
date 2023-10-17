@@ -25,7 +25,7 @@
 <br />
 <div align="left">
 <h1>Blog post generator</h1>
-Content creation and organisation 
+Create seo-optimised meta descriptions, content and headings 3x faster.
 </div>
 
 
@@ -34,7 +34,8 @@ Content creation and organisation
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [![WIP][product-screenshot]](https://example.com) <br>
- Telegram bot powered by the ChatGPT API, designed to simplify the process of creating  blog content and saving time. Effortlessly generate engaging blog posts by simply providing a few keywords. Say goodbye to writer's block and hello to content.<br>
+ AI-powered telegram bot, designed to supercharge your blog writing. Getting started is as easy as sharing your keywords with the bot, and watch it work its magic. The generated content will seamlessly be saved to a newly created Notion page, simplifying your workflow and saving you valuable time.
+ <br>
 ## Built With
 [![Telegram]][Telegram-url]
 [![Node.js][Nodejs.com]][Nodejs-url]
@@ -42,8 +43,11 @@ Content creation and organisation
 [![openai]][openai-url]
 
 ## Features
-- [x] Automatic topic-specific content generation, based on provided keywords.  
-  - [ ] Specify tone ( casual, professional, witty...etc.) 
+- Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
+- [x] Automatic keyword-specific 160 char meta description generation for a blog post
+  - [ ] Adaptive tone ( casual, professional, classy, sassy...etc.) 
+  - [ ] Spelling and grammar correction
+  - [ ] Multiple language support
 - [x] Generated conten is automativally seved to a newly created Notion page
 
 ## Contributions
