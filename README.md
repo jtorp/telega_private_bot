@@ -34,7 +34,9 @@ Create seo-optimised meta descriptions, content and headings 3x faster.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [![WIP][product-screenshot]](https://example.com) <br>
- AI-powered telegram bot, designed to supercharge your blog writing. Getting started is as easy as sharing your keywords with the bot, and watch it work its magic. The generated content will seamlessly be saved to a newly created Notion page, simplifying your workflow and saving you valuable time.
+Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From birthdays to special occasions, Telegram bot got it all covered with a sprinkle of creativity 🎉📲
+- leverages the power of Telegram and ChatGPT
+- easy to use on the phone
  <br>
 ## Built With
 [![Telegram]][Telegram-url]
@@ -44,11 +46,12 @@ Create seo-optimised meta descriptions, content and headings 3x faster.
 
 ## Features
 - [x] Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
-- [x] Automatic keyword-specific 160 char meta description generation for a blog post
+- [x] Automatic keyword-specific 160 char content generation for any occasion
   - [ ] Adaptive tone ( casual, professional, classy, sassy...etc.) 
-  - [ ] Spelling and grammar correction
   - [ ] Multiple language support
-- [x] Generated conten is automativally seved to a newly created Notion page
+- [] Generated conten is automativally seved to a newly created Notion page
+- [] Ai generated image + greeting
+
 
 ## Contributions
 
