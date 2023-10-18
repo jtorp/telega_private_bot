@@ -24,8 +24,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="left">
-<h1>Blog post generator</h1>
-Create seo-optimised meta descriptions, content and headings 3x faster.
+<h1>Greeting & Wishes Generator</h1>
+Craft unique greetings for any occasion 💫🎉  
 </div>
 
 
@@ -38,10 +38,10 @@ Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From
 - leverages the power of Telegram and ChatGPT
 - easy to use on the phone
  <br>
+
 ## Built With
 [![Telegram]][Telegram-url]
 [![Node.js][Nodejs.com]][Nodejs-url]
-[![notion]][notion-url]
 [![openai]][openai-url]
 
 ## Features
@@ -49,8 +49,7 @@ Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From
 - [x] Automatic keyword-specific 160 char content generation for any occasion
   - [ ] Adaptive tone ( casual, professional, classy, sassy...etc.) 
   - [ ] Multiple language support
-- [] Generated conten is automativally seved to a newly created Notion page
-- [] Ai generated image + greeting
+- [ ] AI generated image + greeting
 
 
 ## Contributions
