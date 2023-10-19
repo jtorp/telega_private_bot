@@ -50,6 +50,7 @@ Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From
   - [ ] Adaptive tone ( casual, professional, classy, sassy...etc.) 
   - [ ] Multiple language support
 - [ ] AI generated image + greeting
+- [ ] Save for later in preffested servise ( notion, drive )
 
 
 ## Contributions
