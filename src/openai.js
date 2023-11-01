@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 const getUserKeywords = (keywords) =>
-  `Write 100 characters long text which is based on the provided keywords: ${keywords}.`;
+  `Write 160 characters long text which is based on the provided keywords: ${keywords}.`;
 
 export async function generateGPT(message = '') {
   const messages = [

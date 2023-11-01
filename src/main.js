@@ -88,7 +88,7 @@ bot.action('generate_new', async (ctx) => {
   }
 
   const tipsMessage = `<b style="color:green;">Sorry, I'm struggling 😓 to come up with a greeting you like</b>\n
-    <b>💡Tip:</b> \nTry to be specific with your keywords. Tell me <b> who </b> is it for, and what's the <b> occasion </b> (e.g. birthday, new home,get better)`;
+    <b>💡Tip:</b> \n Be specific with your keywords. Tell me <b> who </b> is it for, and what's the <b> occasion </b> (e.g. birthday, new home,get better)`;
   if (buttonClickCount[userId] >= 1) {
     ctx.replyWithHTML(tipsMessage);
     return;
@@ -103,7 +103,7 @@ bot.action('generate_new', async (ctx) => {
     const newResponse = await generateGPT(originalInput);
     ctx.answerCbQuery('Generating a new description...');
 
-    const formattedNewResponse = `<b>Ok! What about this one? </b>\n\n${newResponse.content}`;
+    const formattedNewResponse = `<b>Ok! What about this one?</b>\n\n${newResponse.content}`;
     ctx.replyWithHTML(
       formattedNewResponse,
       Markup.inlineKeyboard([
