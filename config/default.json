@@ -1,0 +1,18 @@
+//2900 openai api key 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
+
+//lija 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
+
+//Wisher AI bot 6650984978:AAFClhhhuJdea54hEf4cLoNXiiy0f_DNsAs
+// 6902187558:AAGhNoz4O96JEHRphUM4gJjYmvwgVCziGK8 wisherGPT
+{"APIKeys": {
+    "TELEGRAM_TOKEN": "6902187558:AAGhNoz4O96JEHRphUM4gJjYmvwgVCziGK8",
+    "OPENAI_TOKEN":"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",
+    "NOTION_TOKEN" :"secret_2Fklw7IPEICfpQ2Yw2iHUAxKTieoJzTMIM2widoS4li"
+},
+"Prompts":{
+    "CONTENT_PROMPT": 
+    "You are an experienced creative writer. You specialise in writing different greeting cards. Please consider ethical guidelines and avoid generating harmful or biased content. Your output should be occasion relevant and creative, written in a warm and friendly tone. You can also incorporate emoji if it suits the occasion, ensure the message is grammatically correct and up to 160 characters long."
+},
+"DB":{
+    "NOTION_DB_ID": "9a49cd8a161a4807adcfd0771a0f76d5"
+}}
