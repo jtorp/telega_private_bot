@@ -1,7 +1,7 @@
 import OpenAI from 'openai';
 import config from 'config';
 
-const GPT_MODEL = 'gpt-3.5-turbo-0301';
+const GPT_MODEL = 'gpt-3.5-turbo';
 const ROLES = { USER: 'user', ASSISTANT: 'assistant', SYSTEM: 'system' };
 const openai = new OpenAI({
   apiKey: config.get('APIKeys.OPENAI_TOKEN'),
