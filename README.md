@@ -25,18 +25,10 @@
 <br />
 <div align="left">
 <h1>Greeting & Wishes Generator</h1>
-Craft unique greetings for any occasion 💫🎉  
-</div>
 
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
 [![WIP][product-screenshot]](https://example.com) <br>
-Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From birthdays to special occasions, Telegram bot got it all covered with a sprinkle of creativity 🎉📲
-- leverages the power of Telegram and ChatGPT
-- easy to use on the phone
+Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From birthdays to special occasions, Telegram bot got it all covered with a sprinkle of creativity, so you never have to worry about what to say💫🎉📲
  <br>
 
 ## Built With
@@ -46,12 +38,8 @@ Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From
 
 ## Features
 - [x] Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
-- [x] Automatic keyword-specific 160 char content generation for any occasion
-  - [ ] Adaptive tone ( casual, professional, classy, sassy...etc.) 
-  - [ ] Multiple language support
-- [ ] AI generated image + greeting
-- [ ] Save for later @notion or @googledrive 
-
+- [x] Content creation of 160-character greeting tailored to any occasion based on keywords
+- [ ] Multiple language support
 
 ## Contributions
 
@@ -66,7 +54,7 @@ Feel free to submit pull requests, create issues or spread the word.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/WIP.gif
+[product-screenshot]: images/wisherGPTstart.png
 [notion]: images/notion-48.png
 [openai]: images/openai.png
 
