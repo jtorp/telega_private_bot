@@ -3,11 +3,18 @@ import { message } from 'telegraf/filters';
 import { generateGPT } from './openai.js';
 import config from 'config';
 
+const activeChats = new Set();
+
 const bot = new Telegraf(config.get('APIKeys.TELEGRAM_TOKEN'), {
   handlerTimeout: Infinity,
 });
 
+
+
 bot.start((ctx) => {
+  activeChats.add(ctx.chat.id);
+  console.log(`Active chat: ${ctx.chat.id}`);
+
   const welcomeMessage =
     '👋 Hey!\n\n' +
     "I'm here to assist you in writing greeting messages for any occasion. Please tell me who is it for, and what is the occasion for the greeting.\n";
@@ -17,7 +24,7 @@ bot.help((ctx) => {
   sendCommandList(ctx);
 });
 
-bot.on(message('text'), processAIResponse);
+ bot.on(message('text'), processAIResponse);
 
 function sendCommandList(ctx) {
   const commandList = [
@@ -61,7 +68,7 @@ async function processAIResponse(ctx) {
 
     if (!response) {
       ctx.reply(
-        "Sorry, I couldn't generate content for you. You ran out of the free API credits. Please try again.",
+        "Sorry, I couldn't generate content for you. You ran out of the free API credits. Please try again later.",
       );
     } else {
       const formattedResponse = `<b style="color:green;">Voila 🪄 Your greeting is ready!</b>\n\n${response.content}`;
@@ -117,5 +124,9 @@ bot.action('generate_new', async (ctx) => {
     console.error('Error with re-generation', error.message);
   }
 });
+
+
+
+
 
 bot.launch();
