@@ -29,7 +29,7 @@
 
 [![WIP][product-screenshot]](https://example.com) <br>
  
-Welcome to the 𝐠𝐫𝐞𝐞𝐭𝐢𝐧𝐠 𝐠𝐮𝐫𝐮 𝐛𝐨𝐭, powered by 𝐂𝐡𝐚𝐭𝐆𝐏𝐓. It will help you generate 𝕘𝕣𝕖𝕖𝕥𝕚𝕟𝕘𝕤 quickly & and with a sprinkle of style for any situation!
+Welcome to the 𝐠𝐫𝐞𝐞𝐭𝐢𝐧𝐠 𝐠𝐮𝐫𝐮 𝐛𝐨𝐭, powered by 𝐂𝐡𝐚𝐭𝐆𝐏𝐓. It will help you generate 𝕘𝕣𝕖𝕖𝕥𝕚𝕟𝕘𝕤 quickly and with a sprinkle of style for any situation!
 Just toss in some keywords 🔑, and it will work bot magic faster than you can say "abracadabra!" 🎩💥 🚀
 No more staring at your screen trying to figure out what to say.💫🎉📲  
 
@@ -43,7 +43,6 @@ No more staring at your screen trying to figure out what to say.💫🎉📲
 ## Features
 - [x] Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
 - [x] Content creation of 160-character greeting tailored to any occasion based on keywords
-- [ ] Multiple language support
 
 ## Contributions
 
