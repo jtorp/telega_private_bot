@@ -8,44 +8,28 @@ const activeChats = new Set();
 const bot = new Telegraf(config.get('APIKeys.TELEGRAM_TOKEN'), {
   handlerTimeout: Infinity,
 });
-
-
-
 bot.start((ctx) => {
-  activeChats.add(ctx.chat.id);
-  console.log(`Active chat: ${ctx.chat.id}`);
-
   const welcomeMessage =
     '👋 Hey!\n\n' +
-    "I'm here to assist you in writing greeting messages for any occasion. Please tell me who is it for, and what is the occasion for the greeting.\n";
+    "Toss me some 𝐤𝐞𝐲𝐰𝐨𝐫𝐝𝐬 and I'll do the rest. Tell me 𝔀𝓱𝓸 💎🐻 is it for, and 𝔀𝓱𝓪𝓽 is the 🎀 occasion 🎀 for the greeting. Also you can add writing tone ( like formal, funny, witty...)\n";
   ctx.reply(welcomeMessage);
 });
 bot.help((ctx) => {
   sendCommandList(ctx);
 });
 
- bot.on(message('text'), processAIResponse);
+bot.on(message('text'), processAIResponse);
 
 function sendCommandList(ctx) {
   const commandList = [
-    '/start - Press start and then provide me with some keywords. Who do you want to send the greeting to, and what is the occasion for the greeting',
-    '/help - Get help and instructions',
+    '/start - Type/Press start to kick things off 🚀',
+    '/help - List of my commands 🪄',
   ];
 
   const commandListMessage =
     '🆘 Available commands:\n' + commandList.join('\n');
   ctx.reply(commandListMessage);
 }
-
-bot.action('send_to_notion', async (ctx) => {
-  const loginUrl = 'https://www.notion.so/login';
-  ctx.replyWithHTML(
-    'Login to your notion',
-    Markup.inlineKeyboard([
-      Markup.button.callback('login to notion', loginUrl),
-    ]),
-  );
-});
 
 // Store the original user keywords and also to store the button click count in bot memory to prevent spam
 const originalUserInput = {};

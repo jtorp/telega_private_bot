@@ -42,7 +42,7 @@ No more staring at your screen trying to figure out what to say.💫🎉📲
 
 ## Features
 - [x] Full [Telegram Bot API 4.0](https://core.telegram.org/bots/api) 
-- [x] Content creation of 160-character greeting tailored to any occasion based on keywords
+- [x] Content creation of 100-character greeting tailored to any occasion based on keywords
 
 ## Contributions
 
