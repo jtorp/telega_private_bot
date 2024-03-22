@@ -24,12 +24,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="left">
-<h1>Greeting & Wishes Generator</h1>
+<h1>Greeting & Wishes bot</h1>
 
 
 [![WIP][product-screenshot]](https://example.com) <br>
-Say hi with style 🙌 and discover the magic of ChatGPT-powered greetings. From birthdays to special occasions, Telegram bot got it all covered with a sprinkle of creativity, so you never have to worry about what to say💫🎉📲
- <br>
+ 
+Welcome to the 𝐠𝐫𝐞𝐞𝐭𝐢𝐧𝐠 𝐠𝐮𝐫𝐮 𝐛𝐨𝐭, powered by 𝐂𝐡𝐚𝐭𝐆𝐏𝐓. It will help you generate 𝕘𝕣𝕖𝕖𝕥𝕚𝕟𝕘𝕤 quickly & and with a sprinkle of style for any situation!
+Just toss in some keywords 🔑, and it will work bot magic faster than you can say "abracadabra!" 🎩💥 🚀
+No more staring at your screen trying to figure out what to say.💫🎉📲  
+
+<br>
 
 ## Built With
 [![Telegram]][Telegram-url]
