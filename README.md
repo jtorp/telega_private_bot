@@ -12,8 +12,9 @@
 <h1>Greeting & Wishes bot</h1>
 
 
-[![WIP][product-screenshot]] <br>
- 
+![alt text](images/wisherGPTstart.png )
+
+ <br>
 Welcome to the 𝐠𝐫𝐞𝐞𝐭𝐢𝐧𝐠 𝐠𝐮𝐫𝐮 𝐛𝐨𝐭, powered by 𝐂𝐡𝐚𝐭𝐆𝐏𝐓. It will help you generate 𝕘𝕣𝕖𝕖𝕥𝕚𝕟𝕘𝕤 quickly and with a sprinkle of style for any situation!
 Just toss in some keywords 🔑, and it will work bot magic faster than you can say "abracadabra!" 🎩💥 🚀
 No more staring at your screen trying to figure out what to say.💫🎉📲  
