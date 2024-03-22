@@ -1,11 +1,10 @@
 import { Telegraf, Markup } from 'telegraf';
 import { message } from 'telegraf/filters';
 import { generateGPT } from './openai.js';
-import config from 'config';
 
 const activeChats = new Set();
 
-const bot = new Telegraf(config.get('APIKeys.TELEGRAM_TOKEN'), {
+const bot = new Telegraf(process.env.TELEGRAM_TOKEN, {
   handlerTimeout: Infinity,
 });
 bot.start((ctx) => {
