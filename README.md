@@ -12,7 +12,7 @@
 <h1>Greeting & Wishes bot</h1>
 
 
-[![WIP](product-screenshot){width=350px}]
+[![WIP][product-screenshot]] <br>
  
 Welcome to the 𝐠𝐫𝐞𝐞𝐭𝐢𝐧𝐠 𝐠𝐮𝐫𝐮 𝐛𝐨𝐭, powered by 𝐂𝐡𝐚𝐭𝐆𝐏𝐓. It will help you generate 𝕘𝕣𝕖𝕖𝕥𝕚𝕟𝕘𝕤 quickly and with a sprinkle of style for any situation!
 Just toss in some keywords 🔑, and it will work bot magic faster than you can say "abracadabra!" 🎩💥 🚀
